@@ -1,5 +1,12 @@
+plv8-jPath
+====
+
+This is a clone of node-jPath slightly modified to make it loadable into PLV8 for PostgreSQL. Essentially the "module.exports" setup has been changed to simple create a top level
+jpath object that holds the select and filter methods. Nothing else is different.
+
 node-jPath
 ====
+
 Utility library to help you traverse and filter out data from complex JSON and or Arrays of objects.
 The strength of this library lies in ability to use XPath-like expressions to retrieve data you need.
 
